@@ -105,12 +105,12 @@ Trouver une solution plus performante pour inclure (ou require) les classes dont
 __________________
 ### Exo 6 : caractéristiques du Mage
 
-Le Mage a des points de magie (magicPoints) : 100.
-Il a une attaque de 5.
-Son attaque : Boule de feu (fireball).
-Utlise aléatoirement entre 1 et 20 points de magie.
-Les dégâts de cette attaque sont égaux au coût en points de magie * un nombre aléatoire entre 1 et 3.
-3 possibilités d'attaque :
-Il a assez de points de magie : boule de feu normale.
-Il n'a plus assez de points de magie : boule de feu lancé avec les points de magie restant.
+Le Mage a des points de magie ``magicPoints`` : 100.  
+Il a une attaque de 5.  
+Son attaque : Boule de feu ``fireball``.  
+Utlise aléatoirement entre 1 et 20 points de magie.  
+Les dégâts de cette attaque sont égaux au coût en points de magie * un nombre aléatoire entre 1 et 3.  
+3 possibilités d'attaque :  
+Il a assez de points de magie : boule de feu normale.  
+Il n'a plus assez de points de magie : boule de feu lancé avec les points de magie restant.  
 Si il n'a plus de point de magie : il donne un coup de bâton.

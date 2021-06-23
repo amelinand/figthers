@@ -19,7 +19,7 @@ while ($character1->getLifePoints() > 0 && $character2->getLifePoints() > 0){
     echo '<br>';
 
     if ($character2->getLifePoints() > 0){
-        echo $character2->attack($character1);
+        echo $character2->fireball($character1);
         $status = "Victoire de  $character2->name !";
         echo '<br>';
     }

@@ -6,7 +6,7 @@ class Character
 {
     // Attribut personnage
     public $name;
-    public $attackPoint = 15;
+    public $attackPoints = 15;
     protected $lifePoints = 100; // private on ne peut plus ecrire ni lire on doit donc utilisé un getteer ou setter
    
 
