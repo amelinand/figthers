@@ -53,6 +53,8 @@ Crée la class
 ```include 'classes/'. $class_name . '.php';```  
 ```});```
 
+>  ``abstract`` et placé avant ``class Character`` pour qu'on ne puisse plus lui apporter de modification depuis l'heritage 
+
 - Pour crée le combat  dans l'index : 
 > ```while ($character1->getLifePoints() > 0 && $character2->getLifePoints() > 0){```  
 ```echo $character1->attack($character2);```  
@@ -114,3 +116,16 @@ Les dégâts de cette attaque sont égaux au coût en points de magie * un nombr
 Il a assez de points de magie : boule de feu normale.  
 Il n'a plus assez de points de magie : boule de feu lancé avec les points de magie restant.  
 Si il n'a plus de point de magie : il donne un coup de bâton.
+_________________
+### Exo 7 : bouclier magique du Mage
+
+A partir de maintenant, à chaque tour, le mage aura deux options :
+
+70% de chance de faire sa boule feu.  
+30% de chance de faire son bouclier magique.  
+Caractéristiques du bouclier magie :  
+Absorbe la prochaine attaque dirigée sur le Mage.  
+Une fois absorbé, il disparait.  
+Tant que le bouclier est actif, le Mage ne le relance pas.  
+Coût en magie : 0.  
+Important : chaque sous-classe doit être indépendante et s'autogérer.
