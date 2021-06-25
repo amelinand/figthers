@@ -8,7 +8,7 @@ class Mage extends Character // extends // Permet de recupérer les éléments d
     public $shield = false; // Bouclier.
 
     public function __construct($name) {
-        $this->name = $name;
+        parent::__construct($name); // Evite de devoir remettre  $this->name = $name; du fichier parent.
         $this->attackPoints /= 3; // On donne à attackPoints 1 tiers des points d'attack entrée dans le fichier parent (Character.php).
     }
 
