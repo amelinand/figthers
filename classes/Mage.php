@@ -4,7 +4,7 @@
 class Mage extends Character // extends // Permet de recupérer les éléments du fichier parent Character.
 {
     // Attribut //
-    public $magicPoints = 50;
+    public $magicPoints = 80;
     public $shield = false; // Bouclier.
 
     public function __construct($name) {
